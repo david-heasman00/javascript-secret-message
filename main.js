@@ -17,3 +17,7 @@ console.log(secretMessage[easily_index]);
 //Task 5
 secretMessage.shift();
 console.log(secretMessage.length);
+
+//Task 6
+secretMessage.unshift('Programming');
+console.log(secretMessage.length);
