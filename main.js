@@ -13,3 +13,7 @@ console.log(secretMessage.length);
 const easily_index = secretMessage.indexOf('easily');
 secretMessage[easily_index] = 'right';
 console.log(secretMessage[easily_index]);
+
+//Task 5
+secretMessage.shift();
+console.log(secretMessage.length);
