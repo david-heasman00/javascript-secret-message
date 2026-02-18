@@ -24,5 +24,8 @@ console.log(secretMessage.length);
 
 //Task 7
 const getIndex = secretMessage.indexOf('get');
-secretMessage.splice(getIndex, 4, 'know');
+secretMessage.splice(getIndex, 5, 'know');
 console.log(secretMessage.length);
+
+//Task 8
+console.log(secretMessage.join(' '));
