@@ -21,3 +21,8 @@ console.log(secretMessage.length);
 //Task 6
 secretMessage.unshift('Programming');
 console.log(secretMessage.length);
+
+//Task 7
+const getIndex = secretMessage.indexOf('get');
+secretMessage.splice(getIndex, 4, 'know');
+console.log(secretMessage.length);
